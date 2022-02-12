@@ -30,8 +30,8 @@ function Carro() {
 var carro = new Carro();
 carro.Marca = 'Fiat';
 carro.Modelo = 'Mobi';
-console.log(carro);
+console.log(carro.getMarca);
 
 carro.setMarca('VW');
 carro.setModelo('Gol');
-console.log(carro);
+console.log(carro.getMarca);
