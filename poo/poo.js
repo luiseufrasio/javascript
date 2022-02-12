@@ -8,6 +8,7 @@ var outraPessoa = new Pessoa('Ana');
 
 console.log(pessoa.Nome);
 console.log(outraPessoa.Nome);
+console.log(typeof(pessoa));
 
 // Classe como Objetos Literais
 var carro = {
@@ -23,3 +24,4 @@ carro.marca = 'GM';
 carro.modelo = 'Tracker';
 carro.ano = 2021;
 alert(carro.getDetalhes());
+console.log(typeof(carro));
