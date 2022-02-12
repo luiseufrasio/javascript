@@ -3,6 +3,12 @@ function Carro() {
     var Marca;
     var Modelo;
 
+    // public
+    this.setMarca = setMarca;
+    this.getMarca = getMarca;
+    this.setModelo = setModelo;
+    this.getModelo = getModelo;
+
     // methods
     function setMarca(marca) {
         Marca = marca;
